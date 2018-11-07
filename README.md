@@ -1,14 +1,6 @@
 CF-Kit
 ======
 
-# Installation
-
-you need to install via ```pip``` cloudflare library.
-
-```
-sudo pip install cloudflare
-```
-
 # Configuration of Credentials
 
 You need to create a file in you home ```.cloudflare/cloudflare.cfg``` with the following format including your account secrets:
@@ -19,6 +11,12 @@ email = user@domain.com
 token = <FILL_WITH_YOUR_TOKEN>
 certtoken =
 extras =
+```
+
+# Installation with pip
+
+```
+pip install git+https://github.com/idontdomath/cf-kit
 ```
 
 # Development
