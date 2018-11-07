@@ -1,0 +1,6 @@
+__pycache__
+devenv
+*.pyc
+*/*.pyc
+*/__pycache__
+cf_kit.egg-info
